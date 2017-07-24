@@ -117,11 +117,11 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #A41E35;
+  color: linear-gradient(180deg, #A41E35, #dc2430);
 }
 a:hover,
 a:focus {
-  color: #A41E35;
+  color: ;
 }
 hr {
   max-width: 100px;
