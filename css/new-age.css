@@ -116,12 +116,13 @@ body {
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
-  transition: all 0.35s;
-  color: linear-gradient(180deg, #A41E35, #dc2430);
+  transition: all 0.25s;
+  color: white;
+  font: bold;
 }
 a:hover,
 a:focus {
-  color: ;
+  color: black;
 }
 hr {
   max-width: 100px;
