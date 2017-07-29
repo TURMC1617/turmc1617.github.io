@@ -340,6 +340,9 @@ section.download2{
     padding: 50px 0;
     position: relative;
 }
+
+small-but
+
 section.download {
   padding: 150px 0;
   position: relative;
@@ -538,6 +541,29 @@ footer ul li a.active {
   border-color: white;
   border: 1px solid;
 }
+
+.btn-outline2 {
+  color: white;
+  border-color: white;
+  border: 1px solid;
+  border-radius: 0px;
+  padding: 15px 45px;
+  font-size: 50px;
+  font-family: 'arca', 'Helvetica', 'Arial', 'sans-serif';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.btn-outline2:hover,
+.btn-outline2:focus,
+.btn-outline2:active,
+.btn-outline2.active {
+  color: #A41E35;
+  background-color: #fff;
+  border-color: #fff;
+}
+
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
@@ -556,6 +582,16 @@ footer ul li a.active {
   padding: 15px 45px;
   font-size: 11px;
 }
+
+.btn-square {
+    border-radius: 0px;
+    margin-top: 50px;
+}
+
+.but-pad {
+    padding-bottom: 50px;
+}
+
 ::-moz-selection {
   color: white;
   text-shadow: none;
