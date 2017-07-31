@@ -145,7 +145,7 @@ h6 {
 }
 p1 {
     font-family: 'arca', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
-    font-size: 30px;
+    font-size: 3.5vw;
     letter-spacing: 5px;
     display: flex;
     align-items: center;
@@ -157,6 +157,20 @@ p1 {
     position: relative;
     text-transform: uppercase;
 }
+p2 {
+    font-family: 'Futura', 'Helvetica', 'Arial', 'sans-serif';
+    font-size: 2vh;
+    letter-spacing: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
 p {
   font-size: 18px;
   line-height: 1.5;

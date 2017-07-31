@@ -1146,7 +1146,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  margin-top: 20px;
+  margin-top: 17%;
 }
 .img-rounded {
   border-radius: 6px;
@@ -1292,7 +1292,7 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 30px;
+  font-size: 3vw;
 }
 h3,
 .h3 {
@@ -3656,7 +3656,7 @@ tbody.collapse.in {
   bottom: 100%;
   margin-bottom: 2px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar-right .dropdown-menu {
     right: 0;
     left: auto;
@@ -4079,7 +4079,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   top: auto;
   left: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .nav-tabs.nav-justified > li {
     display: table-cell;
     width: 1%;
@@ -4097,7 +4097,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs.nav-justified > .active > a:focus {
   border: 1px solid #ddd;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .nav-tabs.nav-justified > li > a {
     border-bottom: 1px solid #ddd;
     border-radius: 4px 4px 0 0;
