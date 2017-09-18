@@ -52,6 +52,11 @@ Quicksand                     |
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
+@media (min-width: 900px) {
+  #video-background #video-background2 {
+    display: none;
+    }
+}
 .para1{
     background-image: url(img/para1.jpg);
     width: 100%; 
@@ -404,7 +409,7 @@ section2 {
   color: white;
 }
 section {
-  padding: 150px 0;
+  padding: 100px 0;
 }
 section h2 {
   font-size: 50px;
@@ -597,6 +602,7 @@ footer ul li a.active {
 , #dc2430);*/ #A41E35;
 }
 .bg-secondary {    
+  background: #1f2e35;
   position: absolute;
   top: 0;
   left: 0;
