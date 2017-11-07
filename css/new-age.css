@@ -38,19 +38,42 @@ Quicksand                     |
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
-#video-background2 { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
+.nav3 ul > li:hover ul li {
+  height: 36px;
+}
+.nav3 li ul {
+  position: absolute;
+  left: 0;
+  top: 36px;
+  z-index: 1;
+}
+.nav3 li ul li {
+  overflow: hidden;
+  height: 0;
+  -webkit-transition: height 200ms ease-in;
+  -moz-transition: height 200ms ease-in;
+  -o-transition: height 200ms ease-in;
+  transition: height 200ms ease-in;
+}
+.spinbg {
+background: linear-gradient(270deg, rgb(230,66,224), rgb(66,164,230), rgb(66,230,101), rgb(228,251,46));
+background-size: 600% 600%;
+-webkit-animation-name: example;
+-webkit-animation: example 5s ease-in-out infinite alternate;
+-moz-animation: example 5s ease-in-out infinite alternate;
+animation: example 5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes example {
+    0%{background-position:0% 50%}
+    100%{background-position:100% 50%}  
+}
+@-moz-keyframes example {
+    0%{background-position:0% 50%}
+    100%{background-position:100% 50%}
+}
+@keyframes example { 
+    0%{background-position:0% 50%}
+    100%{background-position:100% 50%}
 }
 @media (min-width: 900px) {
   #video-background #video-background2 {
@@ -189,8 +212,8 @@ a:focus {
 hr {
   max-width: 100px;
   margin: 25px auto 0;
-  border-width: 1px;
-  border-color: rgba(34, 34, 34, 0.1);
+  border-width: 2px;
+  border-color: rgba(255, 255, 255, 0.75);
 }
 hr.light {
   border-color: white;
