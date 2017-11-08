@@ -38,7 +38,26 @@ Quicksand                     |
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
-.nav3 ul > li:hover ul li {
+.nav a {
+    display:block;
+    padding:5px 5px;
+    line-height: 0em;
+    color:#a41e35;
+}
+.nav li ul {
+    background:#fff;
+}
+.nav li ul li {
+    width: 110px;
+}
+.nav li ul a {
+    border:none;
+}
+.nav li ul a:hover {
+    background:rgba(0,0,0,0.2);
+    text-decoration: none;
+}
+.nav3 li:hover ul li {
   height: 36px;
 }
 .nav3 li ul {
@@ -46,6 +65,8 @@ Quicksand                     |
   left: 0;
   top: 36px;
   z-index: 1;
+  padding-left: 0px;
+  margin-top: 15px;
 }
 .nav3 li ul li {
   overflow: hidden;
