@@ -1146,7 +1146,7 @@ img {
   display: block;
   max-width: 100%;
   max-height: 100%;
-  /*margin-top: 17%;*/
+  margin-top: 17%;
 }
 .img-rounded {
   border-radius: 6px;
@@ -4191,7 +4191,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   min-height: 50px;
   margin-bottom: 20px;
-  border: 1px solid transparent;
+  /*border: 1px solid transparent;*/
 }
 @media (min-width: 768px) {
   .navbar {
@@ -4288,7 +4288,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-fixed-top {
   top: 0;
-  border-width: 0 0 1px;
+  /*border-width: 0 0 1px;*/
 }
 .navbar-fixed-bottom {
   bottom: 0;
@@ -4308,6 +4308,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand > img {
   display: block;
+  width: 200px
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
