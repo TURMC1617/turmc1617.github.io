@@ -106,20 +106,18 @@ animation: example 5s ease-in-out infinite alternate;
     width: 100%; 
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
 }
 .para2{
-    background-image: url(img/para2.jpg);
-    height: 100%; 
+    background: url(img/para2.jpg);
+    width: 100%; 
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
 }
 .para3{
     background-image: url(img/para3.jpg);
-    height: 100%; 
+    width: 100%; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -127,7 +125,7 @@ animation: example 5s ease-in-out infinite alternate;
 }
 .para4{
     background-image: url(img/para4.jpg);
-    height: 100%; 
+    width: 100%; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
