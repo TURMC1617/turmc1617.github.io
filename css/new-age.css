@@ -24,6 +24,13 @@ Quicksand                     |
   height: auto;
   z-index: -100;
 }*/
+@font-face {
+    font-family: 'Futura';
+    src: url('futura-medium-webfont.woff2') format('woff2'),
+         url('futura-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 #video-background { 
     position: fixed;
     top: 50%;
