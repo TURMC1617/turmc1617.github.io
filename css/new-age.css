@@ -47,7 +47,6 @@ Quicksand                     |
 }
 .nav a {
     display:block;
-    padding:5px 5px;
     line-height: 0em;
     color:#a41e35;
 }
@@ -116,7 +115,7 @@ animation: example 5s ease-in-out infinite alternate;
     background-size: cover;
 }
 .para2{
-    background: url(img/para2.jpg);
+    background: url(img/tutv.gif);
     width: 100%; 
     background-attachment: fixed;
     background-position: center;
