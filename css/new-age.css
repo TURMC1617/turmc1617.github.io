@@ -60,7 +60,7 @@ Quicksand                     |
     border:none;
 }
 .nav li ul a:hover {
-    background:rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
     text-decoration: none;
 }
 .nav3 li:hover ul li {
@@ -81,6 +81,10 @@ Quicksand                     |
   -moz-transition: height 200ms ease-in;
   -o-transition: height 200ms ease-in;
   transition: height 200ms ease-in;
+}
+.nav3 li ul li:hover{
+    background-color: grey;
+    
 }
 .spinbg {
 background: linear-gradient(270deg, rgb(230,66,224), rgb(66,164,230), rgb(66,230,101), rgb(228,251,46));
