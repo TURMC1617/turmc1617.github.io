@@ -141,6 +141,13 @@ animation: example 5s ease-in-out infinite alternate;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.para5{
+    background: url(https://media.giphy.com/media/l3dj0MxCwfAfw9WQE/giphy.gif);
+    width: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
 .blinking-cursor {
   font-weight: 100;
   font-size: 30px;
