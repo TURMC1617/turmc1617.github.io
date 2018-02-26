@@ -661,14 +661,7 @@ footer ul li a.active {
 , #dc2430);*/ #A41E35;
 }
 .bg-secondary {    
-  background: #1f2e35;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border: 10px, rgba(255, 255, 255, 1);
-  margin: 10px;
+  background: #ffffff;
 }
 .text-primary {
   color: #A41E35;
@@ -684,8 +677,8 @@ footer ul li a.active {
 }
 
 .btn-outline2 {
-  color: white;
-  border-color: white;
+  color: #A41E35;
+  border-color: #A41E35;
   border: 1px solid;
   border-radius: 0px;
   padding: 15px 45px;
@@ -700,9 +693,9 @@ footer ul li a.active {
 .btn-outline2:focus,
 .btn-outline2:active,
 .btn-outline2.active {
-  color: #A41E35;
-  background-color: #fff;
-  border-color: #fff;
+  color: #fff;
+  background-color: #A41E35;
+  border-color: #A41E35;
 }
 
 .btn-outline:hover,
