@@ -63,14 +63,14 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav nav3 navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a class="page-scroll" href="#program">Programs</a>
-                            <ul>
+                            <!--ul>
                                 <li><a class="text-center ddbg" href="rmc_page.html">NASA RMC</a></li>
                                 <li><a class="text-center ddbg" href="https://sites.google.com/a/temple.edu/rocksat2016/home">Rockstat</a></li>
                                 <li><a class="text-center ddbg" href="https://sites.google.com/a/temple.edu/eclipseballooningproject/home" class="btn btn-outline btn-xl page-scroll">Ballooning</a></li>
-                            </ul>
+                            </ul-->
                     </li>
                     <li>
                         <a class="page-scroll" href="#sponsor">Sponsors</a>
@@ -109,17 +109,26 @@
         </div>
     </header>
     
-    <header id="program" class="download video-background"> 
+    <div id="program" class="download video-background"> 
     <div class="bg-primary"> 
         <div class="row">
         <h2 id="program" class="text-center" style="margin-bottom: 20px">Programs</h2>
         </div>
     </div>
-    <div class="row">
-    <div class="container">
-    <div class="col-lg-12 autoplay">
-        <div class="rmc">
-      <section id="nasarmc" class="download bg-primary text-center">
+    
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <div class="rmc">
+      <section id="nasarmc" class="download bg-primary text-center" style="height: 676px;">
         <div class="container">
             <div class="row">
                 <div class="col-sm-7">
@@ -128,55 +137,50 @@
                     <a href="rmc_page.html" class="btn btn-outline btn-xl page-scroll">Learn More</a>
                 </div>
                 <div class="col-sm-5">
-                    <img src="img/rmc-team.jpg" class="img-responsive col-xs-12" alt>
+                    <img src="img/rmc-team.jpg" class="img-responsive col-xs-12" style="margin-top:0%;" alt>
                 </div>
             </div>
         </div>
     </section>
     </div>
-        <div class="rocksat">
-      <section id="rockstat" class="text-center video-background">
+    </div>
+
+    <div class="item">
+      <div class="rocksat">
+      <section id="rockstat" class="download text-center video-background" style="height: 676px;">
         <div class="container">
             <div class="row">
                 <div class="col-sm-7">
                     <h2 class="section-heading">ROCKSTAT</h2>
-                    <p>The Rockstat Team is </p>
-                    <a href="#contact" class="btn btn-outline btn-xl page-scroll">Learn More</a>
+                    <p>The Rockstat Team designed a payload that will be placed inside of a sounding rocket which is provided by the Wallops Flight Facility. The rocket will launch at Wallops Island where it will follow a sub-orbital flight path into the Atlantic Ocean, reaching an estimated maximum height of 72 miles.</p>
+                    <a href="https://sites.google.com/a/temple.edu/rocksat2016/home" class="btn btn-outline btn-xl page-scroll">Learn More</a>
                     <!--div class="badges">
                         <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
                         <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
                     </div-->
                 </div>
                 <div class="col-sm-5">
-                    <img src="img/bg-cta.jpg" class="img-responsive col-xs-12" alt>
+                    <img src="img/rocksat17.jpg" class="img-responsive col-xs-12" style="margin-top:0%;" alt>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <a href="#2017" target="_blank" class="btn btn-outline2 page-scroll btn-square btn-block" >2018</a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="#2017" target="_blank" class="btn btn-outline2 page-scroll btn-square btn-block" >2017</a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="#2017" target="_blank" class="btn btn-outline2 page-scroll btn-square btn-block" >2016</a>
-                </div>
-            
             </div>
         </div>
     </section>
     </div>
-        <div class="ballooning">
-      <section id="ballooning" class="download bg-primary text-center">
+    </div>
+
+    <div class="item">
+      <div class="ballooning">
+      <section id="ballooning" class="download bg-secondary text-center text-primary" style="height: 676px;">
         <div class="container">
             <div class="row">
                 <div class="col-sm-7">
-                    <h2 class="section-heading">NASA BALLOONING</h2>
+                    <h2 class="section-heading" style="overflow: hidden;">NASA BALLOONING</h2>
                     <p>The Temple NASA Ballooning Team will participate as one of over fifty teams responsible for the design and production of an HAB that is capable of recording and streaming live video footage to the NASA website, a task which has never been attempted for a solar eclipse. </p>
-                    <a href="https://sites.google.com/a/temple.edu/eclipseballooningproject/home" target="_blank" class="btn btn-outline btn-xl page-scroll">Learn More</a>
+                    <a href="https://sites.google.com/a/temple.edu/eclipseballooningproject/home" target="_blank" class="btn btn-outline2 btn-xl page-scroll">Learn More</a>
+                    <a href="https://www.youtube.com/watch?v=rGMibNYSnRg&t" target="_blank" class="btn btn-outline2 btn-xl page-scroll">Watch the Video</a>
                 </div>
                 <div class="col-sm-5">
-                    <img src="img/ballon-team.jpg" class="img-responsive col-xs-12" alt>
+                    <img src="img/ballon-team.jpg" class="img-responsive col-xs-12" style="margin-top:0%;" alt>
                 </div>
             </div>
             <!--<div class="row">
@@ -187,12 +191,20 @@
         </div>
     </section>
     </div>
+    </div>
+  </div>
 
-    </div>
-    </div>
-    </div>
-    </header>
-    
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+        </div>
     <section id="sponsor" class="text-center spinbg">
         <div class="container">
             <div class="row but-pad">

@@ -6450,7 +6450,7 @@ button.close {
   text-indent: -999px;
   cursor: pointer;
   background-color: #000 \9;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgb(178, 42, 66);
   border: 0px solid #fff;
   border-radius: 0px;
   animation-fill-mode: forwards;
@@ -6459,7 +6459,7 @@ button.close {
   width: 60px;
   height: 5px;
   margin: 1px;
-  background-color: #fff;
+  background-color: rgb(137, 30, 49);
 }
 .carousel-caption {
   position: absolute;
