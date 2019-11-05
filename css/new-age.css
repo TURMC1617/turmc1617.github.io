@@ -266,13 +266,13 @@ h6 {
 }
 p1 {
     font-family: 'arca', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
-    font-size: 2.5vw;
+    font-size: 2vw;
     letter-spacing: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    line-height: 4;
+    line-height: 3;
     padding: 0;
     color: white;
     position: relative;
@@ -281,7 +281,7 @@ p1 {
 }
 p2 {
     font-family: 'Futura', 'Helvetica', 'Arial', 'sans-serif';
-    font-size: 2vh;
+    font-size: 1vh;
     letter-spacing: 9px;
     display: flex;
     align-items: center;
@@ -391,7 +391,7 @@ p {
 header {
   position: relative;
   width: 100%;
-  min-height: auto;
+  min-height: 50%;
   overflow-y: hidden;
   /* background: #A41E35; */
   /* fallback for old browsers */
@@ -432,12 +432,12 @@ header .device-container .screen img {
 }
 @media (min-width: 768px) {
   header {
-    min-height: 100%;
+    min-height: 66%;
   }
   header .header-content {
     text-align: center;
     padding: 0;
-    height: 100vh;
+    height: 66vh;
   }
   header .header-content .header-content-inner {
     max-width: none;
@@ -658,10 +658,20 @@ footer ul li a.active {
 
 .bg-primary {
   background: /*url("../img/bg-pattern.png"), linear-gradient( 180deg, #A41E35
-, #dc2430);*/ #A41E35;
+, #dc2430);*/ #a41e35;
 }
-.bg-secondary {    
-  background: #ffffff;
+
+.bg-1 {
+  background: /*url("../img/bg-pattern.png"), linear-gradient( 180deg, #A41E35
+, #dc2430);*/ #37475e;
+}
+
+.bg-2 {    
+  background: #3b3350;
+}
+
+.bg-3 {
+    background: #2fa55d
 }
 .text-primary {
   color: #A41E35;
