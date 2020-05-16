@@ -142,7 +142,7 @@ animation: example 5s ease-in-out infinite alternate;
     background-size: cover;
 }
 .para5{
-    background: url(https://media.giphy.com/media/l3dj0MxCwfAfw9WQE/giphy.gif);
+    background: url(img/tutv.mp4);
     width: 100%; 
     background-attachment: fixed;
     background-position: center;
